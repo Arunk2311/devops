@@ -1,0 +1,90 @@
+cmds:
+
+version info:
+minikube version
+kubectl version
+docker version
+
+
+Starting cmds:
+minikube start
+
+minikube config:
+    2  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-latest.x86_64.rpm
+    3  sudo rpm -Uvh minikube-latest.x86_64.rpm
+    4  minikube start
+   14  minikube addons enable metrics-server
+   16  minkube stop
+   17  minikube stop
+   18  kubectl get pods
+
+
+   24  minikube start
+   25  minikube version
+   26  kubectl version
+   27  minikube get pods
+   28  minikube get pods -A
+   29  kubectl get pods -A
+   30  minikube dashboard
+   31  sudo dnf update && sudo dnf upgrade -y
+   
+   
+   git cmd:
+   32  git init
+   33  git --version
+   34  git branch -m project
+   35  git add README.md
+   36  git commit -m "first commit"
+   37  git config --global user.email "arun.k231197@gmail.com"
+   38  git commit -m "first commit"
+   39  git add README.md
+   40  echo "# linux" >> README.md
+   41  git init
+   42  git add README.md
+   43  git commit -m "first commit"
+   44  git branch -M project
+   45  git remote add origin https://github.com/Arunk2311/project.git
+   46  git push -u origin project
+   47  git push -u origin main
+   48  git branch -M main
+   49  cd linux
+   50  echo "# linux" >> README.md
+   51  git init
+   52  git add README.md
+   53  git commit -m "first commit"
+   55  git branch -M main
+   56  git remote add origin https://github.com/Arunk2311/linux.git
+   57  git push -u origin main
+   58  touch start_script.ksh
+   59  vi start_script.ksh
+   60  ./start_script.ksh
+
+
+docker:
+   62  docker --version
+   63  docker version
+   64  kubectl version
+   65  minikube version
+   66  wget https://github.com/minishift/minishift/releases/download/v1.1.0/minishift-1.1.0-linux-amd64.tgz
+   67  tar -xvf minishift-1.1.0-linux-amd64.tgz
+   68  cp minishift ~/bin/minishift
+   69  export PATH=~/bin:$PATH
+   70  minishift version
+   71  minishift --version
+   72  ls -ltr
+   73  tar -xvf minishift-1.1.0-linux-amd64.tgz
+   74  cd minishift
+   75  chmod 777 minishift
+   76  ls -ltr
+   77  minishift start
+
+   
+   podman-configuration
+   90  flatpak install flathub org.gnome.Extensions
+   91  flatpak run org.gnome.Extensions
+   92  flatpak install flathub io.podman_desktop.PodmanDesktop
+   93  flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+   94
+  104  minikube start
+  105  minikube ip
+  106  history
